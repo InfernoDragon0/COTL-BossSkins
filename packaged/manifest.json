@@ -1,0 +1,9 @@
+{
+    "name": "BossSkins",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/InfernoDragon0/COTL-BossSkins",
+    "description": "Allows you to use boss follower skins on normal followers",
+    "dependencies": [
+        "xhayper-COTL_API-0.2.1"
+    ]
+}
