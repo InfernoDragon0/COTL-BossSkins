@@ -6,7 +6,6 @@ using System.IO;
 namespace BossSkins
 {
     [BepInPlugin(PluginGuid, PluginName, PluginVer)]
-    [BepInDependency("io.github.xhayper.COTL_API")]
     [HarmonyPatch]
     public class Plugin : BaseUnityPlugin
     {

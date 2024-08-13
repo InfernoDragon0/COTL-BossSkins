@@ -1,11 +1,6 @@
-﻿using COTL_API.CustomTarotCard;
-using HarmonyLib;
+﻿using HarmonyLib;
 using Lamb.UI;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using UnityEngine;
 
 namespace BossSkins.Patches
 {
@@ -28,6 +23,10 @@ namespace BossSkins.Patches
                 WorshipperData._Instance.GetSkinIndexFromName("CultLeader 3"),
                 WorshipperData._Instance.GetSkinIndexFromName("CultLeader 4"),
                 WorshipperData._Instance.GetSkinIndexFromName("Sozo"),
+                WorshipperData._Instance.GetSkinIndexFromName("CultLeader 1 Healed"),
+                WorshipperData._Instance.GetSkinIndexFromName("CultLeader 2 Healed"),
+                WorshipperData._Instance.GetSkinIndexFromName("CultLeader 3 Healed"),
+                WorshipperData._Instance.GetSkinIndexFromName("CultLeader 4 Healed"),
 
             };
 
