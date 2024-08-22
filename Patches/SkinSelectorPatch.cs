@@ -30,6 +30,20 @@ namespace BossSkins.Patches
 
             };
 
+            string[] splitted = Plugin.extraUnlocks.Value.Split(',');
+
+            foreach (string s in splitted)
+            {
+                if (string.IsNullOrEmpty(s))
+                {
+                    Plugin.Log.LogInfo("Empty string found in extraUnlocks, skipping.");
+                    continue;
+                }
+
+                Plugin.Log.LogInfo("Adding extra skin: " + s + " to the list.");
+                skinList.Add(WorshipperData._Instance.GetSkinIndexFromName(s));
+            }
+
             var list = new List<WorshipperData.SkinAndData>()
             {
             };

@@ -12,11 +12,20 @@ You can now apply the boss skins to normal followers! The skin selection is avai
 - The one who Waits
 - Aym
 - Baal
-- Leshy
-- Heket
-- Kallamar
-- Shamura
+- Leshy + Variant
+- Heket + Variant
+- Kallamar + Variant
+- Shamura + Variant
 - Sozo
+
+### Config File
+You can now specify additional skins to be selectable during the "Choose Form" section by adding your desired skins into the config file. After you have run the game at least once with the mod installed, you will have a file in Bepinex > configs called "InfernoDragon0.cotl.BossSkins.cfg". Add the desired skins to the ExtraSkins setting to make it available.
+
+Do not use quotation marks. Separate each skin name with a comma (,) for each skin you want to add into the selection. You will need to use the skin's codename instead of the actual name of the skin.
+
+Example of adding skins:
+
+ExtraSkins = Cat,Dog,Pig
 
 ## Developed by [InfernoDragon0](https://github.com/InfernoDragon0)
 
